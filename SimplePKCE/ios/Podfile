@@ -19,6 +19,8 @@ target 'SimplePKCE' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  pod 'RNSnackbar', :path => '../node_modules/react-native-snackbar'
+
   target 'SimplePKCETests' do
     inherit! :complete
     # Pods for testing

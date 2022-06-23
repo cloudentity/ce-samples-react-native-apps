@@ -37,6 +37,10 @@ class CodeVerifier {
       .replace(/[=]/g, '')
       .trim();
   }
+
+  static resetVerifier() {
+    CodeVerifier.verifier = '';
+  }
 }
 
 export default CodeVerifier;

@@ -5919,6 +5919,11 @@ react-native-sha256@^1.4.7:
   resolved "https://artifactory.syntegrity.com:443/api/npm/npm/react-native-sha256/-/react-native-sha256-1.4.7.tgz#cef05260a3a3a17cd70727170d0c187ef7cefb8c"
   integrity sha512-VcIjOBGvHG6V2OCgbGnEKOymcatYC7byf1aM6mmCoUDqOUFQrGIjnU9fUMWGoMERAljVqisvsG/M1GdfhilkFg==
 
+react-native-snackbar@^2.4.0:
+  version "2.4.0"
+  resolved "https://artifactory.syntegrity.com:443/api/npm/npm/react-native-snackbar/-/react-native-snackbar-2.4.0.tgz#dd9687f5228e379ecd57678a921e546331681bcf"
+  integrity sha512-xEDIDxw0ubBHrsvzaMfrZlFoy+ai1WEJZQwyAsG55fqYxUfQM20h+V4v25u+/H/YKY7ZCRMdCZ8zB5JOnbvCQw==
+
 react-native@0.68.2:
   version "0.68.2"
   resolved "https://artifactory.syntegrity.com:443/api/npm/npm/react-native/-/react-native-0.68.2.tgz#07547cd31bb9335a7fa4135cfbdc24e067142585"

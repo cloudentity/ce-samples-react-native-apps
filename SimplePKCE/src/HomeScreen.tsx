@@ -1,9 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import {HomeNavigationStack} from './navigation';
+import {HomeNavigationStack, RootNavigationStack} from './navigation';
 import PayloadScreen from './PayloadScreen';
 import HeaderScreen from './HeaderScreen';
-import ResourcesScreen from './ResourcesScreen';
 import Keychain from 'react-native-keychain';
 
 import jwt_decode from 'jwt-decode';
@@ -16,6 +15,10 @@ import script from '../assets/img/payload.png';
 import scriptActive from '../assets/img/payload-blue.png';
 import signOut from '../assets/img/sign-out.png';
 import TabBarIcon from './components/TabBarIcon';
+import {useNavigation} from '@react-navigation/native';
+import {StackNavigationProp} from '@react-navigation/stack';
+import CodeVerifier from './CodeVerifier';
+import ResourcesScreen from './ResourcesScreen';
 
 const styles = StyleSheet.create({
   icon: {
@@ -24,8 +27,16 @@ const styles = StyleSheet.create({
 });
 
 function SignOutButton() {
+  const navigation = useNavigation<StackNavigationProp<RootNavigationStack>>();
+
+  async function handleSignOut() {
+    await Keychain.resetGenericPassword();
+    CodeVerifier.resetVerifier();
+    navigation.reset({index: 0, routes: [{name: 'Splash'}]});
+  }
+
   return (
-    <TouchableOpacity onPress={() => {}}>
+    <TouchableOpacity onPress={handleSignOut}>
       <Image source={signOut} resizeMode="contain" style={styles.icon} />
     </TouchableOpacity>
   );

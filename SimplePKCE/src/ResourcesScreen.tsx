@@ -1,8 +1,10 @@
-import axios from 'axios';
+import {useNavigation} from '@react-navigation/native';
+import {StackNavigationProp} from '@react-navigation/stack';
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import Button from './components/Button';
 import Container from './components/Container';
+import {RootNavigationStack} from './navigation';
 
 const styles = StyleSheet.create({
   item: {
@@ -10,12 +12,12 @@ const styles = StyleSheet.create({
   },
 });
 
-const resources = [
+const resources: Resource[] = [
   {
     scope: 'openid',
     title: 'Transfer',
     // url: 'http://localhost:8080/banking/transfer',
-    url: 'https://gorest.co.in/public/v2/users/2906',
+    url: 'https://gorest.co.in/public/v2/users/16',
   },
   {
     scope: 'email',
@@ -35,13 +37,16 @@ const resources = [
 ];
 
 function ResourcesScreen({scopes}: {scopes: string[]}) {
+  const navigation = useNavigation<StackNavigationProp<RootNavigationStack>>();
+
   const filteredResources = resources.filter(resource =>
     scopes.includes(resource.scope),
   );
 
   async function handlePress(resource: typeof resources[0]) {
-    const response = await axios.get(resource.url);
-    console.log(response.data);
+    navigation.navigate('ResourceDetails', {
+      resource,
+    });
   }
 
   return (

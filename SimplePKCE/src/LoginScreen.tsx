@@ -16,6 +16,7 @@ import CodeVerifier from './CodeVerifier';
 import {RootNavigationStack} from './navigation';
 import Button from './components/Button';
 import logo from '../assets/img/logo.png';
+import Snackbar from 'react-native-snackbar';
 
 async function getAuthUrl() {
   const codeChallenge = await CodeVerifier.getCodeChallenge();
@@ -117,10 +118,21 @@ function LoginScreen() {
         navigation.reset({index: 0, routes: [{name: 'Home'}]});
       }
     } catch (e) {
+      navigation.reset({index: 0, routes: [{name: 'Login'}]});
       if (axios.isAxiosError(e)) {
-        console.log(e.response);
+        Snackbar.show({
+          text: e.message,
+          duration: Snackbar.LENGTH_SHORT,
+          backgroundColor: '#8E3A59',
+          textColor: 'white',
+        });
       } else {
-        console.error(e);
+        Snackbar.show({
+          text: 'Sign in unsuccessful',
+          duration: Snackbar.LENGTH_SHORT,
+          backgroundColor: '#8E3A59',
+          textColor: 'white',
+        });
       }
     }
   }
