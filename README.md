@@ -52,7 +52,7 @@ Please note that a Mac is required to build projects with native code for iOS.
 }
 ```
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme-screenshot.png?raw=true)
 
 #### Commands to run
 
