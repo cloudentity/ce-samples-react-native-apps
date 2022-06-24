@@ -28,7 +28,7 @@ This sample React Native application obtains an access token from Cloudentity Au
 }
 ```
 
-![alt text](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/readme-screenshot.png?raw=true)
+![screenshot](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/readme-screenshot.png?raw=true)
 
 ### Run for iOS
 
@@ -62,13 +62,8 @@ $ yarn ios
 
 #### Screenshots
 
-![alt text](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-1.png?raw=true)
-![alt text](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-2.png?raw=true)
-![alt text](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-3.png?raw=true)
-![alt text](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-4.png?raw=true)
-![alt text](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-5.png?raw=true)
-![alt text](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-6.png?raw=true)
-![alt text](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-7.png?raw=true)
+![screenshot|width=100](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-1.png?raw=true) ![screenshot|width=100](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-2.png?raw=true) ![screenshot|width=100](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-3.png?raw=true) ![screenshot|width=100](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-4.png?raw=true)
+![screenshot|width=100](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-5.png?raw=true) ![screenshot|width=100](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-6.png?raw=true) ![screenshot|width=100](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-7.png?raw=true)
 
 ### Run for Android
 
@@ -93,9 +88,9 @@ $ yarn android
 
 #### Screenshots
 
-![alt text](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-1.png?raw=true)
-![alt text](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-2.png?raw=true)
-![alt text](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-3.png?raw=true)
-![alt text](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-4.png?raw=true)
-![alt text](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-5.png?raw=true)
-![alt text](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-6.png?raw=true)
+![screenshot|width=100](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-1.png?raw=true)
+![screenshot|width=100](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-2.png?raw=true)
+![screenshot|width=100](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-3.png?raw=true)
+![screenshot|width=100](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-4.png?raw=true)
+![screenshot|width=100](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-5.png?raw=true)
+![screenshot|width=100](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-6.png?raw=true)
