@@ -61,9 +61,12 @@ $ yarn ios
 ```
 
 #### Screenshots
-
-![screenshot](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-1.png?raw=true | width=100) ![screenshot](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-2.png?raw=true | width=100) ![screenshot](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-3.png?raw=true | width=100) ![screenshot](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-4.png?raw=true | width=100)
-![screenshot](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-5.png?raw=true | width=100) ![screenshot](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-6.png?raw=true | width=100) ![screenshot](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-7.png?raw=true | width=100)
+<img width="250" alt="Screenshot" src="https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-1.png"> <img width="250" alt="Screenshot" src="https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-2.png">
+<img width="250" alt="Screenshot" src="https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-3.png">
+<img width="250" alt="Screenshot" src="https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-4.png">
+<img width="250" alt="Screenshot" src="https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-5.png">
+<img width="250" alt="Screenshot" src="https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-6.png">
+<img width="250" alt="Screenshot" src="https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/ios-7.png">
 
 ### Run for Android
 
@@ -88,9 +91,8 @@ $ yarn android
 
 #### Screenshots
 
-![screenshot](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-1.png?raw=true | width=100)
-![screenshot](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-2.png?raw=true | width=100)
-![screenshot](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-3.png?raw=true | width=100)
-![screenshot](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-4.png?raw=true | width=100)
-![screenshot](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-5.png?raw=true | width=100)
-![screenshot](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-6.png?raw=true | width=100)
+<img width="250" alt="Screenshot" src="https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-1.png"> <img width="250" alt="Screenshot" src="https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-2.png">
+<img width="250" alt="Screenshot" src="https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-3.png">
+<img width="250" alt="Screenshot" src="https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-4.png">
+<img width="250" alt="Screenshot" src="https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-5.png">
+<img width="250" alt="Screenshot" src="https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/android-6.png">
