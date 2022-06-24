@@ -41,7 +41,7 @@ Please note that a Mac is required to build projects with native code for iOS.
 </array>
 ```
 
-2. Set credential data in `config.json`
+2. Set credential data in `config.json` (common step for iOS and Android)
 
 ```
 {
@@ -62,17 +62,40 @@ $ yarn start
 $ yarn ios
 ```
 
+#### Screenshots
+
+TBA
+
 ### Run for Android
 
 #### Before run
 
-Set bundle url name in `AndroidManifest.xml`
+1. Set bundle url name in `AndroidManifest.xml`
 
 ```
 <data android:scheme="oauth" />
 <data android:host="com.example.simple-pkce" />
 ```
 
+2. Set credential data in `config.json` (common step for iOS and Android)
+
+```
+{
+  "clientId": "[FILL WITH YOUR CLIENT ID]",
+  "workspaceTokenURL": "[FILL WITH YOUR TOKEN URL]",
+  "workspaceAuthorizationURL": "[FILL WITH YOUR AUTHORIZATION URL]",
+  "urlScheme": "oauth://com.example.simple-pkce"
+}
+```
+
 #### Commands to run
+
+```
+$ yarn install
+$ yarn start
+$ yarn android
+```
+
+#### Screenshots
 
 TBA
