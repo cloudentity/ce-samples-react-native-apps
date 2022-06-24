@@ -17,7 +17,7 @@ This sample React Native application obtains an access token from Cloudentity Au
 
 1. Follow [official documentation](https://reactnative.dev/docs/environment-setup) on how to setup React Native environment.
 
-2. Set credential data in `config.json` (common step for iOS and Android)
+2. Set credential data in `config.json`
 
 ```
 {
