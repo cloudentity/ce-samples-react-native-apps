@@ -1,6 +1,6 @@
 {
-  "clientId": "c9ugv2fph010lqen5l5g",
-  "workspaceTokenURL": "https://ce.us.authz.cloudentity.io/ce/default/oauth2/token",
-  "workspaceAuthorizationURL": "https://ce.us.authz.cloudentity.io/ce/default/oauth2/authorize",
+  "clientId": "[FILL]",
+  "workspaceTokenURL": "[FILL]",
+  "workspaceAuthorizationURL": "[FILL]",
   "urlScheme": "oauth://com.example.simple-pkce"
 }
