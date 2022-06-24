@@ -66,7 +66,7 @@ $ yarn ios
 
 #### Before run
 
-Set bundle url name in AndroidManifest.xml
+Set bundle url name in `AndroidManifest.xml`
 
 ```
 <data android:scheme="oauth" />

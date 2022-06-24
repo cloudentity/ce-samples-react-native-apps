@@ -40,23 +40,14 @@ function ResourceDetailsScreen() {
           setData(response.data);
         })
         .catch(err => {
-          if (axios.isAxiosError(err)) {
-            setError(err.message);
-            Snackbar.show({
-              text: err.message,
-              duration: Snackbar.LENGTH_SHORT,
-              backgroundColor: '#8E3A59',
-              textColor: 'white',
-            });
-          } else {
-            setError(err);
-            Snackbar.show({
-              text: 'Failed to fetch resource',
-              duration: Snackbar.LENGTH_SHORT,
-              backgroundColor: '#8E3A59',
-              textColor: 'white',
-            });
-          }
+          const errorMessage = err.message ?? 'Failed to fetch resource';
+          setError(errorMessage);
+          Snackbar.show({
+            text: errorMessage,
+            duration: Snackbar.LENGTH_SHORT,
+            backgroundColor: '#8E3A59',
+            textColor: 'white',
+          });
         })
         .finally(() => {
           setIsLoading(false);

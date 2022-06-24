@@ -1,7 +1,7 @@
 export type RootNavigationStack = {
   Splash: undefined;
-  Home: undefined;
   Login: undefined;
+  Home: undefined;
   ResourceDetails: {
     resource: Resource;
   };

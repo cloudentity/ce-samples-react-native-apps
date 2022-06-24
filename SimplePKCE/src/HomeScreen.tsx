@@ -5,7 +5,7 @@ import PayloadScreen from './PayloadScreen';
 import HeaderScreen from './HeaderScreen';
 import Keychain from 'react-native-keychain';
 
-import jwt_decode from 'jwt-decode';
+import jwtDecode from 'jwt-decode';
 import {Image, StyleSheet, TouchableOpacity} from 'react-native';
 import api from '../assets/img/api.png';
 import apiActive from '../assets/img/api-blue.png';
@@ -53,12 +53,12 @@ function HomeScreen() {
     try {
       const credentials = await Keychain.getGenericPassword();
       if (credentials && credentials.password) {
-        const _header = jwt_decode(credentials.password, {header: true});
-        const _payload = jwt_decode(credentials.password);
+        const newHeader = jwtDecode(credentials.password, {header: true});
+        const newPayload = jwtDecode(credentials.password);
 
-        setHeader(JSON.stringify(_header, null, 2));
-        setPayload(JSON.stringify(_payload, null, 2));
-        setScopes((_payload as any)?.scp ?? []);
+        setHeader(JSON.stringify(newHeader, null, 2));
+        setPayload(JSON.stringify(newPayload, null, 2));
+        setScopes((newPayload as any)?.scp ?? []);
       }
     } catch (e) {
       console.error(e);

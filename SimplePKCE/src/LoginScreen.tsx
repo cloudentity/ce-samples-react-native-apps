@@ -119,21 +119,12 @@ function LoginScreen() {
       }
     } catch (e) {
       navigation.reset({index: 0, routes: [{name: 'Login'}]});
-      if (axios.isAxiosError(e)) {
-        Snackbar.show({
-          text: e.message,
-          duration: Snackbar.LENGTH_SHORT,
-          backgroundColor: '#8E3A59',
-          textColor: 'white',
-        });
-      } else {
-        Snackbar.show({
-          text: 'Sign in unsuccessful',
-          duration: Snackbar.LENGTH_SHORT,
-          backgroundColor: '#8E3A59',
-          textColor: 'white',
-        });
-      }
+      Snackbar.show({
+        text: axios.isAxiosError(e) ? e.message : 'Sign in unsuccessful',
+        duration: Snackbar.LENGTH_SHORT,
+        backgroundColor: '#8E3A59',
+        textColor: 'white',
+      });
     }
   }
 
