@@ -28,7 +28,7 @@ This sample React Native application obtains an access token from Cloudentity Au
 }
 ```
 
-![screenshot](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/readme-screenshot.png?raw=true | width=100)
+![screenshot](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/SimplePKCE/assets/img/readme/readme-screenshot.png?raw=true)
 
 ### Run for iOS
 
