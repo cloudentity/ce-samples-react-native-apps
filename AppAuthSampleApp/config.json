@@ -1,0 +1,12 @@
+{
+  "issuer": "",
+  "clientId": "",
+  "redirectUrl": "io.ceauthenticate://auth",
+  "scopes": [
+    "email",
+    "introspect_tokens",
+    "openid",
+    "profile",
+    "revoke_tokens"
+  ]
+}
