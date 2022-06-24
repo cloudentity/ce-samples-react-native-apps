@@ -17,7 +17,7 @@ const resources: Resource[] = [
     scope: 'openid',
     title: 'Transfer',
     url: 'http://localhost:8080/banking/transfer',
-    // url: 'https://gorest.co.in/public/v2/users/188886',
+    // url: 'https://gorest.co.in/public/v2/users/18',
   },
   {
     scope: 'email',

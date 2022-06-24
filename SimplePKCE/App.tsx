@@ -3,7 +3,7 @@ import React from 'react';
 import SplashScreen from './src/SplashScreen';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import {NavigationContainer} from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/stack';
+import {createStackNavigator, TransitionPresets} from '@react-navigation/stack';
 import HomeScreen from './src/HomeScreen';
 import LoginScreen from './src/LoginScreen';
 import {RootNavigationStack} from './src/navigation';
@@ -28,6 +28,7 @@ const App = () => {
           <Stack.Screen
             name="ResourceDetails"
             component={ResourceDetailsScreen}
+            options={TransitionPresets.SlideFromRightIOS}
           />
         </Stack.Navigator>
       </NavigationContainer>
