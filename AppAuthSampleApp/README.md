@@ -19,8 +19,8 @@ This sample React Native application obtains an access token from Cloudentity Au
 
 ```
 {
-  "issuer": [ISSUER_URL]],
-  "clientId": [CLIENT_ID],
+  "issuer": ISSUER_URL,
+  "clientId": CLIENT_ID,
   "redirectUrl": "io.ceauthenticate://auth",
   "scopes": [
     "email",
