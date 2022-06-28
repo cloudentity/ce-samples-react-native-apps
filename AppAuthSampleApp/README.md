@@ -32,8 +32,8 @@ This sample React Native application obtains an access token from Cloudentity Au
 }
 ```
 
-![screenshot](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/AppAuthSampleApp/assets/acp-1?raw=true)
-![screenshot](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/AppAuthSampleApp/assets/acp-2?raw=true)
+![screenshot](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/AppAuthSampleApp/assets/acp-1.png?raw=true)
+![screenshot](https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/AppAuthSampleApp/assets/acp-2.png?raw=true)
 
 ### Run for iOS
 
@@ -75,6 +75,6 @@ $ yarn android
 
 ### Screenshots
 
-<img width="250" alt="Screenshot" src="https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/AppAuthSampleApp/assets/img/readme/android-1.png"> 
-<img width="250" alt="Screenshot" src="https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/AppAuthSampleApp/assets/img/readme/android-2.png">
-<img width="250" alt="Screenshot" src="https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/AppAuthSampleApp/assets/img/readme/android-3.png">
+<img width="250" alt="Screenshot" src="https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/AppAuthSampleApp/assets/android-1.png"> 
+<img width="250" alt="Screenshot" src="https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/AppAuthSampleApp/assets/android-2.png">
+<img width="250" alt="Screenshot" src="https://github.com/cloudentity/ce-samples-react-native-apps/blob/master/AppAuthSampleApp/assets/android-3.png">
