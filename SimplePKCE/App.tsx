@@ -21,6 +21,7 @@ const App = () => {
             headerShown: route.name === 'ResourceDetails',
             headerBackTitle: 'Back',
             headerTitle: route.params?.resource?.title,
+            animationEnabled: false,
           })}>
           <Stack.Screen name="Splash" component={SplashScreen} />
           <Stack.Screen name="Login" component={LoginScreen} />
