@@ -1,0 +1,6 @@
+{
+  "clientId": "[FILL]",
+  "workspaceTokenURL": "[FILL]",
+  "workspaceAuthorizationURL": "[FILL]",
+  "urlScheme": "oauth://com.example.simple-pkce"
+}
